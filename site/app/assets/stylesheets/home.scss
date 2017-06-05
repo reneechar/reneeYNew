@@ -41,11 +41,12 @@ $toxic-sunshine: #FFF500;
 }
 
 .location {
-  color: $eyecat;
+  color: $light-underwater;
 }
 
 .affix {
   top: 0;
+  padding: 15px;
   width: 100%;
 }
 
@@ -56,3 +57,20 @@ $toxic-sunshine: #FFF500;
 .affix + .lower-half {
   padding-top: 60px;
 }
+
+.renee-picture {
+  width: 250px;
+  height: 250px;
+  background: url("/renee_char.png");
+  background-size: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.contact-options {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+

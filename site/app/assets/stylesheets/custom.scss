@@ -1,7 +1,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "animate";
+@import "font-awesome-sprockets";
+@import "font-awesome";
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
 
 $underwater-blue: #226888;
 $light-underwater: #398EB6;
@@ -17,6 +20,12 @@ a {
 }
 
 h1 {
+  color: $sunpower;
+  font-size: 50px;
+  font-family: 'Satisfy', cursive;
+}
+
+h2 {
   font-size: 20px;
   color: $underwater-blue;
 }
@@ -34,9 +43,9 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   vertical-align: center;
-  padding: 50px 0;
+  padding: 30px;
 }
 
 section {
-  padding-top: 60px;
+  padding-top: 70px;
 }
