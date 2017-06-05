@@ -1,0 +1,58 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$underwater-blue: #226888;
+$light-underwater: #398EB6;
+$eyecat: #FFA200;
+$sunpower: #FFD600;
+$toxic-sunshine: #FFF500;
+
+.nav {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  li {
+    flex: 0 0 70px;
+    text-align: center;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.first-image {
+  flex: 0 0 100%;
+  height: 300px;
+  background: url("/cherry-blossoms.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#top {
+  flex: 0 0 100%;
+  padding: 60px;
+  height: 250px;
+}
+
+.location {
+  color: $eyecat;
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+}
+
+.affix-top {
+  width: 100%;
+}
+
+.affix + .lower-half {
+  padding-top: 60px;
+}

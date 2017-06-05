@@ -1,0 +1,42 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "animate";
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+$underwater-blue: #226888;
+$light-underwater: #398EB6;
+$eyecat: #FFA200;
+$sunpower: #FFD600;
+$toxic-sunshine: #FFF500;
+
+a {
+  color: $light-underwater;
+  &:hover {
+    color:$eyecat;
+  }
+}
+
+h1 {
+  font-size: 20px;
+  color: $underwater-blue;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  vertical-align: center;
+  padding: 50px 0;
+}
+
+section {
+  padding-top: 60px;
+}
