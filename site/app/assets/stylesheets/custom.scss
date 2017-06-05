@@ -14,9 +14,10 @@ $toxic-sunshine: #FFF500;
 
 a {
   color: $light-underwater;
-  &:hover {
+  &:hover, &:focus {
     color:$eyecat;
   }
+
 }
 
 h1 {
