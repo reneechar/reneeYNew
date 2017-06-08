@@ -7,6 +7,16 @@ $eyecat: #FFA200;
 $sunpower: #FFD600;
 $toxic-sunshine: #FFF500;
 
+@mixin project {
+  width: 100%;
+  height: 400px;
+  margin: 40px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -68,3 +78,22 @@ $toxic-sunshine: #FFF500;
   padding: 0;
 }
 
+#spellcasters {
+  background: url("/spellcasters.png") no-repeat center center fixed;
+  @include project;
+}
+
+#kanban {
+  background: url("/kanban.png") no-repeat center center fixed;
+  @include project;
+}
+
+#disruptArmy {
+  background: url("/disrupt-army.png") no-repeat center center fixed;
+  @include project;
+}
+
+#expressGallery {
+  background: url("/express-gallery.png") no-repeat center center fixed;
+  @include project;
+}
